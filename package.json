@@ -1,0 +1,37 @@
+{
+  "name": "tayaraLike",
+  "version": "1.0.0",
+  "description": "Tayara Like Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "react-dev": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fantastic-Four-Greenfield-Project/tayaraLike.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fantastic-Four-Greenfield-Project/tayaraLike/issues"
+  },
+  "homepage": "https://github.com/Fantastic-Four-Greenfield-Project/tayaraLike#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25",
+    "nodemon": "^2.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
